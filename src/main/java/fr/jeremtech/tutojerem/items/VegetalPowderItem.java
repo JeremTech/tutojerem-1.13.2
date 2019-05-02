@@ -10,9 +10,9 @@ public class VegetalPowderItem extends Item
         super(properties);
     }
 
-    @Override
+    /**@Override
     public boolean hasEffect(ItemStack stack)
     {
         return true;
-    }
+    }**/
 }
