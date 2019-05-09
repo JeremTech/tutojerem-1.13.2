@@ -19,10 +19,14 @@ public class ModItems
     @ObjectHolder(TutoJerem.MOD_ID + ":fish_sandwich")
     public static final FishSandwichItemFood FISH_SANDWICH = null;
 
+    @ObjectHolder(TutoJerem.MOD_ID + ":aquamarine")
+    public static final Item AQUAMARINE = null;
+
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> e)
     {
         e.getRegistry().register(new VegetalPowderItem(new Item.Properties().group(ItemGroup.MATERIALS)).setRegistryName("vegetal_powder"));
         e.getRegistry().register(new FishSandwichItemFood(6, 12, false, new Item.Properties().group(ItemGroup.FOOD)).setRegistryName("fish_sandwich"));
+        e.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.MATERIALS)).setRegistryName("aquamarine"));
     }
 }

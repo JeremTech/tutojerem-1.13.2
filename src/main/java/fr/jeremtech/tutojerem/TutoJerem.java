@@ -1,5 +1,6 @@
 package fr.jeremtech.tutojerem;
 
+import fr.jeremtech.tutojerem.world.OreGeneration;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -25,6 +26,7 @@ public class TutoJerem
     private void setup(final FMLCommonSetupEvent e)
     {
         LOGGER.info("TutoJerem setup");
+        OreGeneration.setupOreGeneration();
     }
 
     private void clientSetup(final FMLClientSetupEvent e)
