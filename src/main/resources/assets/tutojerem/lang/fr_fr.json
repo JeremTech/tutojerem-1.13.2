@@ -1,5 +1,7 @@
 {
   "block.tutojerem.mud": "Boue",
+  "block.tutojerem.aquamarine_ore" : "Minerais d'aquamarine",
   "item.tutojerem.vegetal_powder": "Poudre végétale",
-  "item.tutojerem.fish_sandwich" : "Sandwich au poisson"
+  "item.tutojerem.fish_sandwich" : "Sandwich au poisson",
+  "item.tutojerem.aquamarine": "Aquamarine"
 }
