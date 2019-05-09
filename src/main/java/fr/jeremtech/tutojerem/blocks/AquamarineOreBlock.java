@@ -21,21 +21,18 @@ public class AquamarineOreBlock extends Block
         super(properties);
     }
 
-    /** Change the block drop **/
     @Override
     public IItemProvider getItemDropped(IBlockState state, World worldIn, BlockPos pos, int fortune)
     {
         return ModItems.AQUAMARINE;
     }
 
-    /** Change the block material **/
     @Override
     public Material getMaterial(IBlockState state)
     {
         return Material.ROCK;
     }
 
-    /** Change the block sound **/
     @Override
     public SoundType getSoundType(IBlockState state, IWorldReader world, BlockPos pos, @Nullable Entity entity)
     {
